@@ -1,181 +1,277 @@
-<div data-v-5e9078c0="" data-v-b06dc010="" class="QuestionsList"><div data-v-5e9078c0=""><h1 data-v-5e9078c0="">
-      Top 12 Bit Manipulation interview
-      questions and answers in 2021.
-    </h1> <p data-v-5e9078c0="" align="center"><a data-v-5e9078c0="" href="https://devinterview.io/"><img data-v-5e9078c0="" src="https://source.unsplash.com/collection/52661698/700x350"></a></p> <p data-v-5e9078c0="">
-      You can check all
-      12
-      Bit Manipulation interview questions here 👉
-      https://devinterview.io/data/bitManipulation-interview-questions
-    </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is Bit?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>bit</strong> is a short for <strong>"binary digit"</strong>. It is the smallest unit of measurement in computer data. It contains a single binary value of 0 or 1. A single bit can define a boolean value of True (1) or False (0), but in computer memory, bits are often grouped together in 8-bit clusters called bytes. </p> <p>Since a <strong>byte</strong> contains eight bits that each have two possible values, a single byte may have 28 or 256 different values.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.devinterview.io" rel="noreferrer" target="_blank" title="What is Bit? Interview Questions Source To Answer">Devinterview.io</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. Name some bitwise operations you know</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><strong>NOT ( ~ )</strong>: Bitwise NOT is an unary operator that flips the bits of the number i.e., if the ith bit is 0, it will change it to 1 and vice versa. </li><li><strong>AND ( &amp; )</strong>: Bitwise AND is a binary operator that operates on two equal-length bit patterns. If both bits in the compared position of the bit patterns are 1, the bit in the resulting bit pattern is 1, otherwise 0.</li><li><strong>OR ( | )</strong>: Bitwise OR is also a binary operator that operates on two equal-length bit patterns, similar to bitwise AND. If both bits in the compared position of the bit patterns are 0, the bit in the resulting bit pattern is 0, otherwise 1.</li><li><strong>XOR ( ^ )</strong>: Bitwise XOR also takes two equal-length bit patterns. If both bits in the compared position of the bit patterns are 0 or 1, the bit in the resulting bit pattern is 0, otherwise 1.</li></ul><pre><code><span class="token cMod">AND</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>      <span class="token cMod">OR</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>
-<span class="token cBase">--</span><span class="token cBase">-</span><span class="token cBase">+</span><span class="token cBase">--</span><span class="token cBase">--</span>    <span class="token cBase">--</span><span class="token cBase">-</span><span class="token cBase">+</span><span class="token cBase">--</span><span class="token cBase">--</span>
-  <span class="token cNum">0</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">0</span>       <span class="token cNum">0</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>
-  <span class="token cNum">1</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>       <span class="token cNum">1</span><span class="token cBase">|</span><span class="token cNum">1</span> <span class="token cNum">1</span>
+# ⚫ Bit Manipulation in Tech Interviews 2024: 10 Must-Know Questions & Answers
 
-<span class="token cMod">XOR</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>     <span class="token cMod">NOT</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>
-<span class="token cBase">--</span><span class="token cBase">-</span><span class="token cBase">+</span><span class="token cBase">--</span><span class="token cBase">--</span>    <span class="token cBase">--</span><span class="token cBase">-</span><span class="token cBase">+</span><span class="token cBase">--</span><span class="token cBase">-</span>
-  <span class="token cNum">0</span><span class="token cBase">|</span><span class="token cNum">0</span> <span class="token cNum">1</span>        <span class="token cBase">|</span><span class="token cNum">1</span> <span class="token cNum">0</span>
-  <span class="token cNum">1</span><span class="token cBase">|</span><span class="token cNum">1</span> <span class="token cNum">0</span></code></pre><ul><li><p><strong>Left Shift ( &lt;&lt; )</strong>: Left shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the left and append 0 at the end.</p></li><li><p><strong>Signed Right Shift ( &gt;&gt; )</strong>: Right shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the right, preserving the sign (which is the first bit)</p></li><li><p><strong>Zero Fill Right Shift ( &gt;&gt;&gt; )</strong>: Shifts right by pushing zeros in from the left, filling in the left bits with 0s</p></li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/" rel="noreferrer" target="_blank" title="Name some bitwise operations you know Interview Questions Source To Answer">www.hackerearth.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. Explain what is Bitwise operation?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Bitwise operators</strong> are used for <em>manipulating a data at the bit level</em>, also called as bit level programming. It is a fast and simple action, directly supported by the processor, and is used to manipulate values for comparisons and calculations.</p><p>On simple low-cost processors, typically, bitwise operations are substantially faster than division, several times faster than multiplication, and sometimes significantly faster than addition.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://en.wikipedia.org/wiki/Bitwise_operation" rel="noreferrer" target="_blank" title="Explain what is Bitwise operation? Interview Questions Source To Answer">en.wikipedia.org</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. What is a Byte?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>byte</strong> is made up of 8 bits and the highest value of a byte is 255, which would mean every bit is set. We will look at why a byte's maximum value is 255 in just a second.</p><p>So if all bits are set and the value = 255 my byte would look like this:</p><div><table>
-    <tbody>
-        <tr> 
-            <td colspan="11"> 
-                1 Byte ( 8 bits )
-            </td>
-        </tr>
-    <tr> 
-        <td>
-            Place Value
-        </td>
-        <td> 
-          128
-        </td>
-        <td> 
-          64
-        </td>
-        <td> 
-          32
-        </td>
-        <td> 
-          16
-        </td>
-        <td> 
-          8
-        </td>
-        <td> 
-          4
-        </td>
-        <td> 
-          2
-        </td>
-        <td> 
-          1
-        </td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr> 
-        <td>&nbsp;</td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td> 
-          <div align="center">1
-        </div></td>
-        <td>
-          <div align="center">=
-        </div></td>
-        <td>255</td>
-    </tr>
-    </tbody>
-</table>
-<br>
-Lets take it right to left and add up all those values together
-1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255</div></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://github.com/BruceLampson/bitwise/blob/master/README.md" rel="noreferrer" target="_blank" title="What is a Byte? Interview Questions Source To Answer">github.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. Flip all bits in an integer</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div class="mb-2"><span class="h5">Problem</span></div><div><div class="AnswerBody"><p>I have to flip all bits in a binary representation of an integer. Given:</p><pre><code><span class="token cNum">10101</span></code></pre><p>The output should be</p><pre><code><span class="token cNum">01010</span></code></pre><p>What is the bitwise operator to accomplish this when used with an integer?</p></div></div><div><div class="AnswerBody"><p>Simply use the bitwise <strong>not</strong> operator <code>~</code>.</p><pre><code>int <span class="token cMod">flipBits</span><span class="token cBase">(</span><span class="token parameter">int n</span><span class="token cBase">)</span> <span class="token cBase">{</span>
-    <span class="token cVar">return</span> <span class="token cBase">~</span>n<span class="token cBase">;</span>
-<span class="token cBase">}</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/6351374/bitwise-operator-for-simply-flipping-all-bits-in-an-integer" rel="noreferrer" target="_blank" title="Flip all bits in an integer Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. What would the number 22 look like as a Byte?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A byte is made up of 8 bits and the highest value of a byte is 255, which would mean every bit is set.</p><p>Now:</p><div><table>
-    <tbody>
-    <tr> 
-    <td colspan="11"> 
-    1 
-    Byte ( 8 bits )
-    </td>
-    </tr>
-    <tr> 
-    <td>Place 
-    Value</td>
-    <td> 
-    128
-    </td>
-    <td> 
-    64
-    </td>
-    <td> 
-    32
-    </td>
-    <td> 
-    16
-    </td>
-    <td> 
-    8
-    </td>
-    <td> 
-    4
-    </td>
-    <td> 
-    2
-    </td>
-    <td> 
-    1
-    </td>
-    <td></td>
-    <td></td>
-    </tr>
-    <tr> 
-    <td>&nbsp;</td>
-    <td> 
-    <div align="center">0
-    </div></td>
-    <td> 
-    <div align="center">0
-    </div></td>
-    <td> 
-    <div align="center">0
-    </div></td>
-    <td> 
-    <div align="center">1
-    </div></td>
-    <td> 
-    <div align="center">0
-    </div></td>
-    <td> 
-    <div align="center">1
-    </div></td>
-    <td> 
-    <div align="center">1
-    </div></td>
-    <td> 
-    <div align="center">0
-    </div></td>
-    <td>
-    <div align="center">=
-    </div></td>
-    <td>
-    <div align="center">22
-    </div></td>
-    </tr>
-    </tbody>
-</table>
-<br></div><p>Lets take it right to left and add up all those values together:</p><p>128 <em> <code>0</code> + 64 </em> <code>0</code> + 32 <em> <code>0</code> + 16 </em> <code>1</code> + 8 <em> <code>0</code> + 4 </em> <code>1</code> + 2 <em> <code>1</code> + 1 </em> <code>0</code>   = 22  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://github.com/BruceLampson/bitwise/blob/master/README.md" rel="noreferrer" target="_blank" title="What would the number 22 look like as a Byte? Interview Questions Source To Answer">github.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. What is Bit Masking?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/bitManipulation-interview-questions">all 12 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. Explain how XOR (^) bit operator works</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/bitManipulation-interview-questions">all 12 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. What are some real world use cases of the bitwise operators?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/bitManipulation-interview-questions">all 12 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. What are the advantages of using bitwise operations?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/bitManipulation-interview-questions">all 12 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What is difference between &gt;&gt; and &gt;&gt;&gt; operators?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/bitManipulation-interview-questions">all 12 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. Flip k least significant bits in an integer</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/data/bitManipulation-interview-questions">all 12 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-    Thanks 🙌 for reading and good luck on your next tech interview!
-    <br data-v-5e9078c0="">
-    Explore 3800+ dev interview question here 👉
-    <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div> <!----></div>
+**Bit Manipulation** involves directly manipulating individual bits of data, usually using bitwise operations. In coding interviews, bit manipulation problems are often presented to evaluate a candidate's proficiency with **low-level operations** and their ability to think in terms of **binary representations**.
+
+Check out our carefully selected list of **basic** and **advanced** Bit Manipulation questions and answers to be well-prepared for your tech interviews in 2024.
+
+![Bit Manipulation Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/bitManipulation.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698604012&Signature=RHTEmUgRKyqiVSc%2B20CvkKlBBOebMej3U6xkS5OhJbZX6iiAWcwJmmWFoFNzqvpnSdRDZ%2FLlymhthee5%2F9LALM8%2FH7QG6yIbkuIWtEJt7XfMy4Cx1HGrz5u6Iw5Roj6UCkUouTl8nEdeNlOLZGoq4swLNJ1RKt8ACoUs7n5hLv08xJTcWQ%2F8mGkAQ7caaH%2BB80kNdLWdxdtx62kNB4jZNZniDki%2BVEgLWlQCyuzBtrbvhNoIdwpQTSVvrHBYI9vuP9O21w9yr5xBwRvGPBcdZk7014531wLL%2FJzfd46Jyay3sxYRaAr6ZLifIa%2F%2FFXdYJjivQH4sHKjbOYWTTx0c%2Bg%3D%3D)
+
+👉🏼 You can also find all answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
+## 🔹 1. What is _Bit_?
+
+### Answer
+
+The term **"bit"** stems from "binary" and "digit." As the basic unit of information in computing and digital communications, a bit can assume one of two values: 0 or 1.
+
+### Binary System vs Decimal System
+
+Computers operate using a **binary number system**, employing just two numerals: 0 and 1. In contrast, our day-to-day decimal system is **base-10**, utilizing ten numerals (0-9).
+
+In the binary system:
+- **Bit**: Represents 0 or 1
+- **Nibble**: Comprises 4 bits, representing 16 values (0-15 in decimal)
+- **Byte**: Contains 8 bits, representing 256 values (0-255 in decimal)
+
+For instance, the decimal number 5 is depicted as $0101_2$ in binary.
+
+### Bit Manipulation
+
+Bits are pivotal in **bit manipulation**, a field encompassing operations like bit shifting, logical operations (AND, OR, XOR), and bit masking. These techniques find applications in data compression, encryption, and device control.
+
+Considering two 8-bit numbers: $0010\,1010$ and $0000\,1100$. The logical AND operation gives:
+
+$$
+\begin{array}{c c c c c c c c c}
+  & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+\text{AND} & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 \\
+\hline
+  & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
+\end{array}
+$$
+
+### Integer Representation in Bits
+
+An integer's representation typically occupies a **fixed** number of bits. On many systems, an integer uses **32 bits**. Thus, a 32-bit signed integer spans $-2^{31}$ to $2^{31} - 1$.
+
+### Hardware Considerations
+
+Although **bits** underpin computing, hardware designs can constrain their usage. A 32-bit CPU processes 32 bits simultaneously, requiring extra steps for larger numbers. This led to the adoption of "**double words**" and "**quad words**" to represent larger integers.
+
+---
+
+## 🔹 2. What is a _Byte_?
+
+### Answer
+
+A **byte** is a foundational data unit in computing and telecommunications, capable of representing 256 unique values, ranging from 0 to 255. It consists of 8 **bits**, the smallest data storage units, which can be either 0 or 1.
+
+### Bit Composition
+
+Each bit in a byte has a place value, starting from the least significant bit (LSB) on the right to the most significant bit (MSB) on the left. Their place values are: 
+
+| Place Value | Bit Position |
+|-------------|--------------|
+| 128         | 7            |
+| 64          | 6            |
+| 32          | 5            |
+| 16          | 4            |
+| 8           | 3            |
+| 4           | 2            |
+| 2           | 1            |
+| 1           | 0            |
+
+
+Setting all bits to 1 yields the byte's maximum value of 255.
+
+### Converting Bytes to Decimal
+
+To find the decimal equivalent of a byte, sum the place values of bits set to 1. For a byte with all bits as 1:
+
+$$
+1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255
+$$
+
+### Code Example: Byte to Decimal Conversion
+
+Here is the Python code:
+
+```python
+def byte_to_decimal(byte_str):
+    # Reverse the string for right-to-left calculation
+    byte_str = byte_str[::-1]
+    
+    # Sum up place values for bits set to 1
+    return sum(int(byte_str[i]) * 2 ** i for i in range(len(byte_str)))
+
+# Example usage
+byte_value = "11111111"  # All bits are 1
+decimal_value = byte_to_decimal(byte_value)
+print(decimal_value)  # Output: 255
+```
+
+---
+
+## 🔹 3. Explain what is a _Bitwise Operation_.
+
+### Answer
+
+**Bitwise operations** are actions applied to individual bits within binary numbers or data units like integers. These operations offer several advantages, including speed and memory efficiency, and are widely used in specific computing scenarios.
+
+### Why Use Bitwise Operations?
+
+- **Speed**: Executing bitwise operations is often faster than using standard arithmetic or logical operations.
+  
+- **Memory Efficiency**: Operating at the bit level allows the storage of multiple flags or small integers within a single data unit, optimizing memory usage.
+
+- **Low-Level Programming**: These operations are crucial in embedded systems and microcontroller programming.
+
+- **Data Manipulation**: Bitwise operations can selectively alter or extract specific bits from a data unit.
+
+### Types of Operators
+
+#### Logical Operators
+
+1. **AND (`&`)**: Yields `1` if corresponding bits are both `1`; otherwise, `0`.
+   - Example: $5$ & $3 = 1$.
+  
+2. **OR (`|`)**: Yields `1` if one or both corresponding bits are `1`; otherwise, `0`.
+    - Example: $5 | 3 = 7$.
+
+3. **XOR (`^`)**: Yields `1` when corresponding bits differ; otherwise, `0`.
+    - Example: $5 \oplus 3 = 6$.
+
+4. **NOT (`~`)**: Inverts all bits.
+    - Example: $~5$ becomes $-6$ in 2's complement.
+
+#### Shift Operators
+
+1. **Left Shift (`<<`)**: Moves bits to the left and fills in with `0`.
+    - Example: $5 \text{ << 2 } = 20$.
+
+2. **Right Shift (`>>`)**: Moves bits to the right and fills in based on the sign of the number.
+    - Example: $5 \text{ >> 2 } = 1$.
+
+3. **Zero Fill Right Shift (>>>)**: Shifts bits right, filling in zeros.
+    - Example: $-5 \text{ >>> 2 } = 1073741823$.
+    
+#### Specialized Operations
+
+- **Ones' Complement**: Similar to NOT but restricted to 32 bits.
+    - Example: $(-5)$ & $0xFFFFFFFF$.
+
+- **Twos' Complement**: Used for representing negative numbers in two's complement arithmetic.
+    - Example: $~5 + 1 = -6$.
+
+### Practical Applications
+
+- **Flag Management**: Bits can represent on/off flags, and bitwise operators can be used to toggle these.
+
+- **Data Compression**: These operations play a role in compression algorithms.
+  
+- **Encryption**: Bitwise manipulation is used in cryptographic algorithms.
+
+### Code Example: Flag Manipulation
+
+Here is the Python code:
+
+```python
+# Define flags with binary representation
+FLAG_A, FLAG_B, FLAG_C, FLAG_D = 0b0001, 0b0010, 0b0100, 0b1000
+
+# Set flags B and D
+flags = FLAG_B | FLAG_D
+
+# Check if Flag C is set
+print("Flag C is set" if flags & FLAG_C else "Flag C is not set")
+```
+
+---
+
+## 🔹 4. What are some real world applications of _Bitwise Operators_?
+
+### Answer
+
+**Bitwise operators** play a critical role across various domains, from data storage to algorithms and security.
+
+Here's an overview of their versatile applications:
+
+### Data Management
+
+- **Compact Storage with Bit Fields**: Efficiently store multiple Boolean values or flags, commonly seen in settings like user permissions or system flags.
+
+- **Data Compression**: Bitwise operations facilitate algorithms like Run-Length Encoding.
+
+- **Error Detection**: Tools like Parity Bits and CRC utilize bitwise logic to detect and correct errors in data transmission.
+
+### Algorithms
+
+- **Efficiency in Computation**: Fast multiplication or division by powers of two using left and right shift operations.
+
+- **Solving Puzzles**: Techniques like 'finding the single non-duplicate in an array' lean on XOR properties.
+
+- **Subset Enumeration**: Bit manipulations can generate all subsets of a set, useful in combinatorial problems.
+
+### Graphics and Imaging
+
+- **Bitmaps**: Representing images with a sequence of bits, enabling pixel-level operations.
+
+- **Color Manipulation**: Use bitwise logic for operations like blending or masking colors.
+
+### Security
+
+- **Encryption Algorithms**: DES, AES, and others deploy bitwise functions in their operations.
+
+- **Quick Membership Checks**: Bloom filters, used in databases and caches, harness bitwise logic for fast set membership tests.
+
+### Hardware Control
+
+- **Device Register Manipulation**: Directly control device hardware by setting or clearing specific bits in memory-mapped IO.
+
+- **Memory Management**: Techniques like bit masking can assist in memory partitioning in older systems.
+
+### Networking
+
+- **IP Address Operations**: IP subnetting and CIDR notations, essential for routing, involve bitwise manipulations.
+
+---
+## 🔹 5. Explain how _XOR (^)_ bit operator works.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
+## 🔹 6. What is difference between _>>_ and _>>>_ operators?
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
+## 🔹 7. What is _Bit Masking_?
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
+## 🔹 8. What would the _number 22_ look like as a _Byte_?
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
+## 🔹 9. How to flip all _Bits_ in an _Integer_?
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
+## 🔹 10. Flip _k_ least significant _Bits_ in an _Integer_.
+
+### Answer
+
+👉🏼 Check out all 10 answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
+
+---
+
