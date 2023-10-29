@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** Bit Manipulation questions and answers to be well-prepared for your tech interviews in 2024.
 
-![Bit Manipulation Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/bitManipulation.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698604012&Signature=RHTEmUgRKyqiVSc%2B20CvkKlBBOebMej3U6xkS5OhJbZX6iiAWcwJmmWFoFNzqvpnSdRDZ%2FLlymhthee5%2F9LALM8%2FH7QG6yIbkuIWtEJt7XfMy4Cx1HGrz5u6Iw5Roj6UCkUouTl8nEdeNlOLZGoq4swLNJ1RKt8ACoUs7n5hLv08xJTcWQ%2F8mGkAQ7caaH%2BB80kNdLWdxdtx62kNB4jZNZniDki%2BVEgLWlQCyuzBtrbvhNoIdwpQTSVvrHBYI9vuP9O21w9yr5xBwRvGPBcdZk7014531wLL%2FJzfd46Jyay3sxYRaAr6ZLifIa%2F%2FFXdYJjivQH4sHKjbOYWTTx0c%2Bg%3D%3D)
+![Bit Manipulation Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FbitManipulation.png?alt=media&token=4b3db4f6-d4bd-4f56-8f1f-f0d682f6a28d&_gl=1*1euky85*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA3MzM2LjE5LjAuMA..)
 
 👉🏼 You can also find all answers here: [Devinterview.io - Bit Manipulation](https://devinterview.io/data/bitManipulation-interview-questions)
 
