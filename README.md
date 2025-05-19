@@ -2,7 +2,7 @@
 
 **Bit Manipulation** involves directly manipulating individual bits of data, usually using bitwise operations. In coding interviews, bit manipulation problems are often presented to evaluate a candidate's proficiency with **low-level operations** and their ability to think in terms of **binary representations**.
 
-Check out our carefully selected list of **basic** and **advanced** Bit Manipulation questions and answers to be well-prepared for your tech interviews in 2024.
+Check out our carefully selected list of **basic** and **advanced** Bit Manipulation questions and answers to be well-prepared for your tech interviews in 2025.
 
 ![Bit Manipulation Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FbitManipulation.png?alt=media&token=4b3db4f6-d4bd-4f56-8f1f-f0d682f6a28d&_gl=1*1euky85*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA3MzM2LjE5LjAuMA..)
 
