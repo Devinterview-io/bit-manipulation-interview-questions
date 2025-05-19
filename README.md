@@ -1,4 +1,4 @@
-# ⚫ Bit Manipulation in Tech Interviews 2024: 10 Must-Know Questions & Answers
+# ⚫ Bit Manipulation in Tech Interviews 2024: 10 Must-Know Questions & Answers in 2025
 
 **Bit Manipulation** involves directly manipulating individual bits of data, usually using bitwise operations. In coding interviews, bit manipulation problems are often presented to evaluate a candidate's proficiency with **low-level operations** and their ability to think in terms of **binary representations**.
 
