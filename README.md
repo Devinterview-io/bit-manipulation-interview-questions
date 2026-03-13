@@ -14,7 +14,7 @@
 ## 1. What is a _Bit_?
 
 ### Definition: The Bit
-The term **"bit"** is a portmanteau of **binary digit**. It represents the fundamental unit of information in Shannon information theory and digital computing. A bit exists in one of two mutually exclusive states: $0$ or $1$, mapping to the Boolean values $\{\text{False, True}\}$.
+The term **"bit"** is a portmanteau of **binary digit**. It represents the fundamental unit of information in Shannon information theory and digital computing. A bit exists in one of two mutually exclusive states: $0$ or $1$, mapping to the Boolean values $\{\text{False}, \text{True}\}$.
 
 ### Binary System vs. Decimal System
 Computers utilize a **base-2 (binary)** positional notation system. Unlike the human **base-10 (decimal)** system, which uses ten digits ($0-9$), binary scales by powers of $2$.
@@ -704,7 +704,7 @@ Initial State: 11001010 (Decimal: 202)
     Decimal: 25 (202 / 8)
     ```
 
-- **Overflow/Truncation**: Bits shifted beyond the $2^0$ position are discarded. In Python's arbitrary-precision model, left shifts never overflow memory until $O(\text{RAM})$, while right shifts eventually converge to $0$ (for positive) or $-1$ (for negative) integers.
+- **Overflow/Truncation**: Bits shifted beyond the $2^0$ position are discarded. In Python's arbitrary-precision model, left shifts never overflow memory until memory is exhausted, while right shifts eventually converge to $0$ (for positive) or $-1$ (for negative) integers.
 
 #### Left Shift (`<<`)
 
