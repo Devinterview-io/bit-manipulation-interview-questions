@@ -1,4 +1,4 @@
-# ⚫ Bit Manipulation in Tech Interviews: 10 Must-Know Questions & Answers in 2026
+# ⚫ Bit Manipulation in Tech Interviews: 5 Must-Know Questions & Answers in 2026
 
 <div>
 <p align="center">
