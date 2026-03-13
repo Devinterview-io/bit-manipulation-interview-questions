@@ -206,7 +206,7 @@ print(f"Active flags count: {current_perms.bit_count()}")
 2.  **Post-Quantum Cryptography (PQC)**: Lattice-based schemes (e.g., CRYSTALS-Kyber) utilize bit-masking for polynomial coefficient reduction and efficient error correction.
 
 #### High-Performance Networking
-1.  **CIDR Subnetting**: IPv4 and IPv6 routing uses the $AND$ operator to determine network prefixes: $Subnet = IP \ \& \ Mask$.
+1.  **CIDR Subnetting**: IPv4 and IPv6 routing use the bitwise AND operator to determine network prefixes: `subnet = ip & mask`.
 2.  **Checksums & CRC**: Cyclic Redundancy Checks (CRC) use bitwise XOR and shifts to detect data corruption in high-speed ethernet frames.
 
 #### Embedded Systems and Hardware Abstraction
